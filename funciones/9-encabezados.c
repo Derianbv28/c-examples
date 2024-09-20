@@ -1,3 +1,5 @@
+/* Incluyendo funcion5 al final y en el int main() */
+/* Derian Benavides Venegas */
 #include <stdio.h>
 #include "9-encabezados.h"
 
@@ -15,6 +17,7 @@ int main() {
 
     // Llamando a la nueva función
     v = funcion4(10);
+    v = funcion5(10);
     printf("v = %d\n", v);
 
     return 0;
@@ -52,5 +55,11 @@ int funcion4(int x) {
 int funcion4(int x) {
     printf("En funcion4()...\n");
     int y = x - 2;
+
+// funcion5(): Imprime un mensaje. Retorna el valor que recibió como argumento
+// decrementado en 4
+int funcion5(int x) {
+    printf("En funcion5()...\n");
+    int y = x + 4;
     return y;
 }
