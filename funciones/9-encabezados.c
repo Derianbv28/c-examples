@@ -17,6 +17,7 @@ int main() {
 
     // Llamando a la nueva función
     v = funcion4(10);
+     printf("v = %d\n", v);
     v = funcion5(10);
     printf("v = %d\n", v);
 
