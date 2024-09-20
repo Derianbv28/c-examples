@@ -53,7 +53,7 @@ int funcion4(int x) {
 }
 
 // funcion5(): Imprime un mensaje. Retorna el valor que recibió como argumento
-// decrementado en 4
+// incrementado en 4
 int funcion5(int x) {
     printf("En funcion5()...\n");
     int y = x + 4;
