@@ -1,5 +1,5 @@
 /* Incluyendo funcion5 al final y en el int main() */
-/* Derian Benavides Venegas */
+/* Derian Benavides Venegas C21142 */
 #include <stdio.h>
 #include "9-encabezados.h"
 
